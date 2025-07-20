@@ -19,7 +19,7 @@
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://TeraD-88.github.io/dify-lp/",
+  "homepage": "https://TeraD-88.github.io/dify-lp-20250720/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
