@@ -1,20 +1,22 @@
 :root {
-  --primary-color: #0056b3; /* Deep Blue */
-  --primary-gradient-start: #0056b3;
-  --primary-gradient-end: #003f7f;
-  --hero-background-start: #e0f2f7; /* Light Blue */
-  --hero-background-end: #b2ebf2;
-  --text-dark: #343a40; /* Dark Gray */
+  --primary-color: #4a90e2; /* Bright Blue */
+  --primary-gradient-start: #50a3a2;
+  --primary-gradient-end: #34495e;
+  --hero-background-start: #f7f8fa; /* Off-white */
+  --hero-background-end: #e9edf2;
+  --text-dark: #2c3e50; /* Dark Slate Blue */
   --text-light: #ffffff; /* White */
-  --light-bg: #f8f9fa; /* Very Light Gray */
+  --light-bg: #f0f4f8; /* Light Periwinkle */
+  --accent-color: #e91e63; /* Pink */
 }
 
 body {
   margin: 0;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Poppins', 'Noto Sans JP', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: var(--text-dark); /* Default text color */
+  color: var(--text-dark);
+  background-color: var(--hero-background-start);
 }
 
 code {
