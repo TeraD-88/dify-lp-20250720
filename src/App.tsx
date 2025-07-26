@@ -1,18 +1,9 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Navbar, Nav, Container, Button, Row, Col, Card } from 'react-bootstrap';
 import { Briefcase, People, ChatDots, Bullseye, BarChart, ShieldCheck, Star } from 'react-bootstrap-icons';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 import './App.css';
 
 function App() {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,
-      once: true,
-    });
-  }, []);
-
   return (
     <div className="App">
       <Navbar bg="light" variant="light" expand="lg" sticky="top">
